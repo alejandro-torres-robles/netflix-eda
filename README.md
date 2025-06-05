@@ -1,21 +1,26 @@
-# Exploración de Datos: Netflix Titles
+# Netflix Titles EDA
 
-## Descripción
-Este proyecto analiza un conjunto de datos de películas y programas de televisión de Netflix para descubrir patrones de distribución por tipo, país, clasificación y géneros.
+Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el catálogo de títulos de Netflix, incluyendo limpieza de datos y visualización de resultados.
 
-## Dataset
-- [Netflix Movies and TV Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+##  Dataset
+- Fuente: [Netflix Titles Dataset en Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- Variables principales: título, tipo (Película o Serie), país, fecha de lanzamiento, clasificación por edad.
 
-## Preguntas Exploradas
-1. ¿Cuántas películas y series hay?
-2. ¿Cuáles son los 5 países con más contenido?
-3. ¿Cuál es el año con más lanzamientos?
-4. ¿Qué porcentaje de contenido es TV-MA?
-5. ¿Qué director tiene más títulos?
-6. ¿Cuáles son los 10 géneros más comunes?
+##  Notebooks Disponibles
+- `Netflix_EDA.ipynb`: Análisis exploratorio inicial sobre el dataset de Netflix Titles.
+- `Netflix_EDA_Cleaning.ipynb`: Versión mejorada con limpieza de datos, visualizaciones avanzadas y narrativa detallada.
 
-## Herramientas Utilizadas
-- Python
+##  Análisis Realizados
+- Distribución de tipo de contenido (Películas vs Series).
+- Top 10 países con más títulos (con y sin registros desconocidos).
+- Evolución de lanzamientos por año.
+- Distribución de clasificaciones por edad.
+
+##  Herramientas
+- Python 3
 - Pandas
 - Matplotlib
 - Seaborn
+- JupyterLab
+
+
